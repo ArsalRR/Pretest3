@@ -18,7 +18,6 @@ class OnboardingView extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                // Navigasi ke halaman berikutnya menggunakan GetX
                 Get.toNamed('/profile');
               },
               child: Text('Mulai'),
